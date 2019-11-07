@@ -1,0 +1,140 @@
+body { 
+background: white;
+color: #283C63;
+font-family: 'Josefin Sans', sans-serif; 
+ }
+
+
+h1 {
+color: #C98F2F;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+color: #C98F2F;
+font-size: 24px; 
+font-family: 'Josefin Sans', sans-serif; 
+margin: auto;
+}
+
+h3 {
+color: #283C63;
+font-size: 20px; 
+font-family: 'Josefin Sans', sans-serif;
+margin: auto;
+
+}
+
+
+a {
+text-decoration: none;
+color: #C98F2F;
+font-size: 18px;
+background-color: #283C63;
+padding: 10px;
+border-radius: 8px;
+
+}
+
+a:hover {
+color: black
+}
+
+img {
+
+height: 100px;
+border-radius: 10px;
+}
+
+
+
+.card {
+text-align: center;
+width: 400px;
+padding: 5px;
+justify-content: space-around;
+justify-content: space-between;
+
+
+}
+
+.card-container {
+
+margin: 40 auto;
+padding: 15px;
+justify-content: space-between;
+justify-content: space-around;
+}
+
+.blockcard {
+display: inline-flex;
+margin: 40 auto;
+justify-content: space-between;
+justify-content: space-around;
+border: solid black
+margin-top: 50px;
+
+}
+
+
+#logo{
+width: 50px
+height:50px;
+}
+
+.blocktitle {
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+
+
+@media (max-width: 500px) {
+.container {
+width: 400px;
+}
+}
+
+
+.banner{
+  height: 550px;
+  background-image: url(images/vignes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+   	
+}
+
+
+
+
+div {
+	text-align: center;
+}
+
+#profil{
+	
+	border: 1px black solid;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 10px 5px 3px black;
+   
+}
+
+.block{
+	box-shadow: 10px 5px 5px grey;
+}
+
+
+.card2 {
+	text-align: center;
+	width: 350px;
+	background-color: white;
+	border-radius: 20px;
+	padding: 3px;
+	box-shadow: 0px 10px 30px rgba (0,0,0,0.1);
+	background: transparent;
+	display: inline-flex;
+}
